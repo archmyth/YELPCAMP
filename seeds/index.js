@@ -46,15 +46,15 @@ const seedDB = async () => {
             price,
             images: [
                 {
-                  url: 'https://res.cloudinary.com/dujqhnnvn/image/upload/v1684892530/YelpCamp/betyi46n2hcf6ub32ekt.jpg',
-                  filename: 'YelpCamp/betyi46n2hcf6ub32ekt'
+                    url: 'https://res.cloudinary.com/dujqhnnvn/image/upload/v1685159340/YelpCamp/spybxufj35s27uszbw78.jpg',
+                    filename: 'YelpCamp/spybxufj35s27uszbw78',
+                  },
+                  {
+                    url: 'https://res.cloudinary.com/dujqhnnvn/image/upload/v1685159342/YelpCamp/sjm31u5xeuwjyvuahlsw.jpg',
+                    filename: 'YelpCamp/sjm31u5xeuwjyvuahlsw',
                 
-                },
-                {
-                  url: 'https://res.cloudinary.com/dujqhnnvn/image/upload/v1684892530/YelpCamp/yo6kptpehcsxha0e4hyw.jpg',
-                  filename: 'YelpCamp/yo6kptpehcsxha0e4hyw',
-                  
-                }
+                  }
+              
             ]
         })
         await camp.save();
